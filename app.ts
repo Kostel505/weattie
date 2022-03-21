@@ -1,7 +1,6 @@
 //@ts-ignore
 import moment from "moment";
-let currentTime = moment().format();
-console.log(currentTime);
+
 const timeEl = document.getElementById('time') as HTMLInputElement;
 const dateEl = document.getElementById('date') as HTMLInputElement;
 const timezoneEl = document.getElementById('time-zone') as HTMLInputElement;
